@@ -1,0 +1,1 @@
+# This is where i start to build my own expense tracker in C with makefile
