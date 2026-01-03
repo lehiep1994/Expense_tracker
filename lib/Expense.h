@@ -1,13 +1,9 @@
-#ifdef EXPENSE_H
+#ifndef EXPENSE_H
 #define EXPENSE_H
 
-#define MAX_DESCRIPTION_LENGTH 1000
-#define MAX_DATE_LENGTH 11
-
-typedef struct {
-    char date[MAX_DATE_LENGTH];
-    char description[MAX_DESCRIPTION_LENGTH];
-    float amount;
-} Expense;
+extern int get_expense(void);
+// extern int get_saving(void);
+// extern void add_saving(int);
+extern void load_from_file(int, int);
 
 #endif // EXPENSE_H

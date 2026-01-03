@@ -3,10 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-extern int get_total(void);
-extern int get_saving(void);
-extern void add_saving(int);
-extern void load_from_file(int, int);
+#include "../lib/Budget.h"
+// #include "../lib/Expense.h"
 
 HWND hTotal, hSaving, hEdit, hButton;
 
