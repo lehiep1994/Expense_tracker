@@ -7,3 +7,16 @@ I am going to build this application with only purpose to enhance my C programmi
 
 Note: The next step is to enhance the application with more features and functionalities.
 
+
+HOW TO BUILD AND RUN THE APPLICATION:
+
+1) Make sure you have a C compiler and assembler installed on your system.
+   ```
+   For example, you can use GCC for C and NASM for assembly.
+   ```
+
+2) Clone the repository to your local machine.
+3) Type the following command to build and run the application:
+   ```
+   ../AutoBuildScript/Build.sh
+   ```
