@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# The next build is going to be a bit more complex, so we will use a Makefile to manage the build process.
+
 set -e  # Exit on error
 
 NOW=$(date '+%Y-%m-%d %H:%M:%S')
